@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: data_ai_glaucus_preagg
+    schema: fin_dm_data_ai
+    description: "存储数据智能部的预聚合数据"
+    tables: 
+      - name: prd_glaucus_p_gl_account_decision_conf_sync_pda
+      - name: dm_eco_bm_rta_req_new_config_bckt
+      - name: dm_eco_bm_rta_bucket_cfgid_cost

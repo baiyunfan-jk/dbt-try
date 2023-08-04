@@ -1,0 +1,12 @@
+
+version: 2
+
+sources:
+  - name: ad_transactions
+    schema: fin_dm_data_ai
+    description: "存储数据智能部生成的广告交易数据"
+    tables: 
+      - name: dm_eco_bm_ad_fnnl_all
+      - name: dm_eco_dataeco_ad_transations_0_4_1
+      - name: dm_eco_bm_ad_fnnl_1_base
+
